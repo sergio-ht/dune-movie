@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Headings */
+.big-heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+#title{
+    height: 100vh;
+    background-image: url('images/dune-cover.jpg');
+    background-repeat: no-repeat;
+    color: #fff;
+    /*text-align: left;*/
+
+    /*height: 500px;  You must set a specified height */
+    height: 100vh;
+    width: auto;
+      background-position: center; /* Center the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#title .row{
+    height: 50vh;
+}
+#title .col-md-6{
+    align-self: flex-end;
+}
+
+.h-55{
+    height: 65vh;
+}
+
+.countdown{
+    justify-content: space-evenly;
+    text-align: center;
+    font-style: bold;
+}
+
+.day,.hour,.minute,.second{
+    font-size: 2rem;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+/*Download Buttons*/
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+
+.title-image{
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+/*Reviews Section*/
+
+#reviews{
+    color: #f2dbae;
+    height: 80vh;
+}
+
+.review-carousel{
+    height: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+    background: #591E55;
+    height: 80vh;
+}
+
+.review-text{
+    font-family: 'Montserrat';
+    /*font-weight: bold;*/
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.review-img{
+    width: 15%;
+    border-radius: 8%;
+}
+
+
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    background-color: #8C4D6B;
+    color: #F2DBAE;
+    height: 15vh;
+}
+
+.icon-footer{
+    margin: 0 15px;
+}

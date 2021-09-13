@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dune - Movie</title>
+
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">    <link rel="stylesheet" href="css/styles.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section id="title">
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#title">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#trailer">Trailer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reviews">Reviews</a>
+                            </li>
+                        </ul>
+                 </div>
+            </nav>
+
+            <!-- Title -->
+            <div class="d-flex flex-column h-55 justify-content-end">
+                <div class="countdown d-flex justify-content-evenly mb-5">
+                    <div class="container-day">
+                        <h3 class="day">Time</h3>
+                        <h3>day</h3>
+                    </div>
+                    <div class="container-hour">
+                        <h3 class="hour">Time</h3>
+                        <h3>hour</h3>
+                    </div>
+                    <div class="container-minute">
+                        <h3 class="minute">Time</h3>
+                        <h3>minute</h3>
+                    </div>
+                    <div class="container-second">
+                        <h3 class="second">Time</h3>
+                        <h3>second</h3>
+                    </div>
+                </div>
+                <div>
+                    <a id="trailer" href="https://www.youtube.com/watch?v=n9xhJrPXop4" class="btn btn-outline-light btn-lg px-5">
+                        <i class="icon-footer fab fa-youtube"></i>Trailer
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- reviews -->
+
+    <section id="reviews">
+
+        <div id="review-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="review-text">Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.</h2>
+                    <img class="review-img my-4" src="images/imdb_logo.png" alt="imdb-logo">
+                </div>
+                <div class="carousel-item">
+                    <p class="review-text">Dune occasionally struggles with its unwieldy source material, but those issues are largely overshadowed by the scope and ambition of this visually thrilling adaptation.</p>
+                    <img class="review-img my-4" src="images/rt_logo.png" alt="rotten-tomatoes-logo">
+                </div>
+                <div class="carousel-item">
+                    <p class="review-text">In the far future, an intergalactic empire runs on a substance called Spice. When dynastic family House Atreides is sent to the desert planet Arrakis to oversee the Spice operation, Duke Leto (Oscar Isaac) senses a trap, Lady Jessica (Rebecca Ferguson) schemes in the shadows, and young Paul (Timothée Chalamet) faces his destiny.</p>
+                    <img class="review-img my-4" src="images/empire_logo.jpg." alt="empire-logo">
+                </div>
+            </div>
+            <a href="#review-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#review-carousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <p>
+            <i class="icon-footer fab fa-twitter"></i>
+            <i class="icon-footer fab fa-facebook"></i>
+            <i class="icon-footer fab fa-instagram"></i>
+            <i class="icon-footer fas fa-envelope"></i>
+        </p>
+        <p>© Copyright 2021</p>
+    </footer>
+    <script src="app.js" rel="stylesheet"></script>
+</body>
+</html>
